@@ -1,0 +1,9 @@
+#adminBTN{
+	display:none;
+}
+ul{
+	position:absolute;
+	left:-20px;
+	top:-10px;
+	list-style-type: none;
+}

@@ -1,0 +1,16 @@
+#container{
+	position: absolute;
+	top:45%;
+	left:40%;
+	height: 100px;
+	width: 250px;
+}
+#name{
+	margin-left:33px;
+}
+#btn{
+	height:20px;
+	width:100px;
+	margin-left:150px;
+	margin-top: 10px;
+}

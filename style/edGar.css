@@ -1,0 +1,32 @@
+#adminBTN{
+	display:none;
+}
+ul{
+	position:absolute;
+	left:0px;
+	top:50px;
+	list-style-type: none;
+}
+li{
+	margin:5px;
+	width: 100px;
+	background-color:#55bec1;
+}
+li:hover{
+	cursor:hand;
+	background-color: #55cdc1;
+}
+#title{
+	font: 20px courier ;
+}
+#usr{
+	font: 15px courier;
+}
+th{
+	background-color:yellow;
+	border:1px solid black;
+	width:100px;
+}
+td{
+	text-align: center;
+}

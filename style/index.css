@@ -1,0 +1,85 @@
+#header{
+	display:none;
+	background-color: #55bec1;
+	height:10%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#credits{
+	display:none;
+	position:relative;
+	top:-12px;
+	left:10px;
+	
+}
+#footer{
+	display:none;
+	background-color: #55bec1;
+    position:absolute;
+	
+	width:99%;
+	height:3%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#title{
+	display:none;
+	position: absolute;
+	left:30%;
+	top:-3%;
+	font: 40px courier;
+}
+#search{
+	display:none;
+	position:absolute;
+	top:15%;
+}
+ul{
+	list-style-type: none;
+}
+#display{
+	display:none;
+	position:absolute;
+	top:45%;
+}
+th{
+	width:150px;
+	text-align:center;
+	border: 1px solid black;
+	background: yellow;
+}
+td{
+	text-align:center;
+}
+#send{
+	margin-top: 10px;
+	margin-left: 270px;
+}
+#a.button{
+	appearance:button;
+	text-decoration: none;
+	color: initial;
+}
+#categoria{
+	margin-left: 80px;
+}
+#marca{
+	margin-left: 101px;
+}
+#mod{
+	margin-left: 88px;
+}
+#numDoc{
+	margin-left: 11px;
+}
+#numOrd{
+	margin-left: 98px;
+}
+#adminBTN{
+	width:106px;
+	display:none;
+	position:absolute;
+	top:12%;
+	left:92%;
+}
