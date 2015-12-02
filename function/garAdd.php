@@ -26,6 +26,7 @@ require ("logged.php");
 <li>Numero Documento<input id='numDoc' name='numDoc' type='text'></li>
 <li>Ordine<input id='numOrd' name='numOrd' type='text'></li>
 <li>Telefono<input id='telefono' name='telefono' type='text'></li>
+<li>Fax<input id='fax' name='fax' type='text'></li>
 <li>Mail<input id='mail' name='mail' type='text'></li>
 <li><input id='newFile' name='newFile' type='button' value='Nuovo File'><input id='chooseFile' name='chooseFile' type='button' value='Scegli File'></li>
 <li><input id='link' name='link' type='text' value="" disabled="true" size="30"></li>

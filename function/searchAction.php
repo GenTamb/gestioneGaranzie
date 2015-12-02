@@ -24,7 +24,10 @@ if($numRow>=1){
 		echo "<td>". $res['Fax']."</td>";
 		echo "<td>". $res['email']."</td>";
 		$lnk=$res['link'];
+		if($lnk!=""){
 		echo "<td id='link'><a href='$lnk' class='button' target='_blank'>open</a></td>";
+		}
+		else echo "<td id='link'></td>";
 		echo "</tr>";
 	}
 	echo "</table>";

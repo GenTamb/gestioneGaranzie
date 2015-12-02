@@ -31,6 +31,6 @@ if(!empty($_SESSION['nomeTEMPfile']) && !empty($_SESSION['tipofile']) && !empty(
 														   else{
 															    echo"Errore: file non uppato, riprova";
 														   } 
-														   echo "<input id='linkUp' name='linkUp' type='text' value='".$tmpdir. $_SESSION['nomeTEMPfile']."' disabled='true'><button id='chiudiFINESTRA'>CHIUDI</button>";
+														   echo "<input id='linkUp' name='linkUp' type='text' value='".$_SESSION['nomeTEMPfile']."' disabled='true'><button id='chiudiFINESTRA'>CHIUDI</button>";
 }
 ?>

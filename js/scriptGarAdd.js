@@ -2,6 +2,9 @@ $(document).ready(function(){
 	$("#newFile").click(function(){
 		window.open("upload.php","uploadForm","height=150px, width=350px");
 	});
+	$("#chooseFile").click(function(){
+		window.open("choose.php","chooseForm","height=300px, width=400px");
+	});
 	$("#send").click(function(){
 		var mod=$("#mod").val();
 		var cat=$("#categoria").val();
@@ -9,6 +12,7 @@ $(document).ready(function(){
 		var numDoc=$("#numDoc").val();
 		var numOrd=$("#numOrd").val();
 		var tel=$("#telefono").val();
+		var fax=$("#fax").val();
 		var mail=$("#mail").val();
 		var lnk=$("#link").val();
 		if(mod=="" || cat=="" || mar==""){
@@ -16,14 +20,9 @@ $(document).ready(function(){
 		}
 		else{
 		$.post("addGarAction.php",
-		      {modello: mod, categoria:cat, marca:mar, numDoc: numDoc, numOrd: numOrd, telefono: tel, mail: mail, lnk:lnk},
-			  function(data){
-			       if(data==1){
-				       alert('Record Inserito');
-			                  }
-			       else{
-				             alert('Errore!');
-			                  }
+		      {modello: mod, categoria:cat, marca:mar, numDoc: numDoc, numOrd: numOrd, telefono: tel, fax: fax, mail: mail, lnk:lnk},
+			  function(result){
+			       alert(result);
 		                    });
 	}
 });

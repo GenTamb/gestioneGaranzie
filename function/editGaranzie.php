@@ -12,6 +12,7 @@ require ("logged.php");
 <p id='usr'>Logged as <?php echo $_SESSION['name']; ?></p> 
 <ul id='cmdList'>
 <li id='addGar'>Aggiungi Garanzia</li>
+<li id='editGat'>Modifica Garanzia</li>
 </ul>
 
 
