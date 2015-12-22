@@ -10,6 +10,6 @@ Store warranties info like model name, brand, telephone number, etc and it allow
 It uses PHP and MySQL.
 
 What's new? 
-Massive use of JQuery, AJAX and JavaScript.
+Massive use of jQuery, AJAX and JavaScript.
 
 Code is free.
