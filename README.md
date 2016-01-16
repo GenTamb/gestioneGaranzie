@@ -1,12 +1,12 @@
 # gestioneGaranzie
-Simply warranty Management
+Simple warranty Management
 
 My 3rd public project.
 Still under development.
 
 What this thing does?
 
-Store warranties info like model name, brand, telephone number, etc and it allows to retrieve, add, modify them.
+Stores warranties info like model name, brand, telephone number, etc and it allows to retrieve, add, modify them.
 It uses PHP and MySQL.
 
 What's new? 
